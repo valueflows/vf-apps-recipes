@@ -8,7 +8,7 @@ Recipe names:
 * The name Recipe is used mostly in cooking and food processing. We use that name here because we think it is used and understood by the most people.
 
 Recipe models: a recipe consists of a series, tree, or graph of activities that may be called processes, operations, tasks, or similar words that generally describe transforming some inputs to create some outputs. In VF, we call those Processes. There are two main models for sequencing processes in recipe models:
-* direct dependencies between processes, where one process is directly linked to its preceding and next processes.
+* direct dependencies between processes, where one process is either directly linked to its preceding and next processes, or all of the processes are arranged in a linear list.
 * [input-process-output models](https://en.wikipedia.org/wiki/IPO_model), where one process is linked to others when one of its outputs becomes the input to another process, or vice versa.
 
 ValueFlows uses an input-process-output model, not direct process dependencies. Here is [an explanation of some of the advantages of an IPO model](https://github.com/FreedomCoop/valuenetwork/wiki/Loose-coupling-vs-tight-coupling,-or,-direct-process-dependencies-vs-resource-flows).
