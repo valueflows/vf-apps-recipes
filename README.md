@@ -11,7 +11,7 @@ Recipe models: a recipe consists of a series, tree, or graph of activities that 
 * direct dependencies between processes, where one process is directly linked to its preceding and next processes.
 * [input-process-output models](https://en.wikipedia.org/wiki/IPO_model), where one process is linked to others when one of its outputs becomes the input to another process, or vice versa.
 
-ValueFlow uses an input-process-output model, not direct process dependencies. Here is [an explanation of some of the advantages of an IPO model](https://github.com/FreedomCoop/valuenetwork/wiki/Loose-coupling-vs-tight-coupling,-or,-direct-process-dependencies-vs-resource-flows).
+ValueFlows uses an input-process-output model, not direct process dependencies. Here is [an explanation of some of the advantages of an IPO model](https://github.com/FreedomCoop/valuenetwork/wiki/Loose-coupling-vs-tight-coupling,-or,-direct-process-dependencies-vs-resource-flows).
 
 Manufacturing systems until the 1990's used separate bills of material and routings, and the routings were a linear, numbered list of processes. An IPO model merges them into one chain, tree or graph. It is possible to transform a BOM+routing model to an IPO model and vice-versa for interoperation, if necessary. This is particularly accurate if the BOM+routing model uses a "routed bill" where each BOM component specifies which routing step it goes into.
 
