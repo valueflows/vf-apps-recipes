@@ -19,5 +19,5 @@ The Recipe model in ValueFlows has not yet been specified and agreed upon. This 
 
 Here are some example implementations of recipes:
 * [From NRP](https://speakerdeck.com/mikorizal/5-nrp-recipe-concepts-and-tutorial) - also used in all of its forks.
-* GOSH (Gathering for Open Science Hardware) has standardized on [DocuBricks](http://www.docubricks.com/).
+* [GOSH (Gathering for Open Science Hardware)](https://forum.openhardware.science/t/repeatable-manufacturing-instructions-for-open-source-hardware/756/3) has standardized on [DocuBricks](http://www.docubricks.com/).
 * [Common Workflow Language](https://www.commonwl.org/) has specs and running software.
